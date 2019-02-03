@@ -116,10 +116,10 @@ Logistic classifier trained solely on tf-idf also gave us similarly good results
 decision trees fared poorly.
 We tested certain hypothesis that we had formulated at the beginning of our analysis and were able to evaluate it
 through our exploratory analysis and model building approach.
- Adding regressor ‘helpfulness_score’ to model M which in this case was Logistic with tf-idf did not improve the
+* Adding regressor ‘helpfulness_score’ to model M which in this case was Logistic with tf-idf did not improve the
 accuracy performance of the model. The previous accuracy was 88.51% and it marginally went upto 88.7%
 which wasn’t a considerable improvement.
- We did not find that the verbosity of a review is related to its helpfulness. In fact, through the EDA we
+* We did not find that the verbosity of a review is related to its helpfulness. In fact, through the EDA we
 concluded that reviews that are voted helpful tend to be concise and shorter in length hence invalidating our
 hypothesis.
 
